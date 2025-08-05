@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/login-signup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    
+    <section>
+    <nav id="Navbar">
+        <div class="logo">
+            <img src="images/italy-sticker-flag-logo-badge-travel-souvenir-illustration_669574-150.png">
+        </div>
+    </nav>
+    </section>
+   
+
+  <div class="container">
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="users/postUser" method="post" id="signup-form">
+        <input type="text" id="firstname" placeholder="Enter your first name" name="firstname" required>
+        <input type="text" id="lastname" placeholder="Enter your last name" name="lastname" required>
+        <input type="phone" id="phone" placeholder="Enter your phone number" name="phone" required>
+        <input type="email" id="email" placeholder="Enter your email" name="email" required>
+        <input type="text" id="address" placeholder="Enter your address" name="address" required>
+        <input type="password" id="password" placeholder="Create a password" name="password" required>
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <a href="login.html">Login</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+    
+    <footer>
+    <div class="footer_main">
+
+        <div class="footer_tag">
+            <h2>Location</h2>
+            <p>Dublin</p>
+            <p>Donegal</p>
+            <p>Cork</p>
+            <p>Galway</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Quick Link</h2>
+            <p>Home</p>
+            <p>Menu</p>
+            <p>Orders</p>
+            <p>Checkout</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Contact</h2>
+            <p>+12343423443</p>
+            <p>+23443345345</p>
+            <p>alisitalian@gmail.com</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Our Service</h2>
+            <p>Fast Delivery</p>
+            <p>Easy Payments</p>
+            <p>24 x 7 Service</p>
+        </div>
+
+        <div class="footer_tag">
+
+            <h2>Follow Us</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+    </div>
+
+    </footer>
+
+</body>
+</html>
+<script>
+const form = document.getElementById('signup-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent the default form submit behavior
+
+  const formData = new FormData(form);
+
+  fetch('/users/postUser', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => {
+    if (response.ok) {
+      // redirect to success page
+      window.location.href = '/login.html';
+    } else {
+      // handle error
+    }
+  })
+  .catch(error => {
+    // handle error
+  });
+});
+</script>
