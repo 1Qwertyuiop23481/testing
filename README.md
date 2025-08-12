@@ -35,3 +35,46 @@
 4. **T+2:30**: First stage separation and second stage ignition
 5. **T+8:00**: Payload fairing jettison
 6. **T+12:00**: Second stage engine cutoff and payload deployment
+
+---
+
+# 🛢️ Tank Structure Description
+
+## Propellant Storage System Architecture
+
+### 🧊 Liquid Oxygen (LOX) Tank
+- **Material**: Aluminum-lithium alloy with anti-slosh baffles
+- **Capacity**: 287,430 kg (633,815 lbs) of liquid oxygen
+- **Temperature**: -183°C (-297°F) cryogenic storage
+- **Pressure**: 2.4 MPa (350 psi) operating pressure
+- **Insulation**: Multi-layer insulation (MLI) blankets
+- **Features**: Common bulkhead design with RP-1 tank for weight savings
+
+### ⛽ Rocket Propellant-1 (RP-1) Tank
+- **Material**: Aluminum-lithium alloy construction
+- **Capacity**: 123,570 kg (272,300 lbs) of refined kerosene
+- **Temperature**: Ambient temperature storage (~15°C/59°F)
+- **Pressure**: 2.4 MPa (350 psi) operating pressure
+- **Design**: Cylindrical structure with hemispherical domes
+- **Safety**: Nitrogen pressurant system for tank pressurization
+
+### 🔧 Tank Support Systems
+- **Pressurant**: High-pressure helium and nitrogen systems
+- **Valves**: Pneumatic and solenoid-operated flow control
+- **Sensors**: Level, pressure, and temperature monitoring
+- **Plumbing**: Stainless steel feed lines with flex joints
+- **Venting**: Emergency pressure relief and boil-off systems
+
+### 🏗️ Structural Integration
+- **Mounting**: Tank support structure integrated with vehicle frame
+- **Load Path**: Thrust loads transferred through tank structure
+- **Interfaces**: Electrical and fluid connections to engine systems
+- **Access**: Service panels for ground operations and maintenance
+- **Testing**: Proof pressure testing and leak detection systems
+
+### 📊 Tank Performance Specifications
+- **Fill Rate**: LOX at 1,000 kg/min, RP-1 at 500 kg/min
+- **Drain Rate**: Complete propellant offload in under 30 minutes
+- **Ullage**: 3-5% volume reserved for thermal expansion
+- **Mass Ratio**: Propellant mass to dry tank mass ratio of 25:1
+- **Cycle Life**: Designed for 10+ reflight cycles with inspection
