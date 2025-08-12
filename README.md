@@ -78,3 +78,57 @@
 - **Ullage**: 3-5% volume reserved for thermal expansion
 - **Mass Ratio**: Propellant mass to dry tank mass ratio of 25:1
 - **Cycle Life**: Designed for 10+ reflight cycles with inspection
+
+---
+
+# 🚢 Submarine Structure Description
+
+## Nuclear-Powered Attack Submarine Architecture
+
+### 🔋 Nuclear Propulsion System
+- **Reactor Type**: Pressurized Water Reactor (PWR) with enriched uranium fuel
+- **Power Output**: 150 MW thermal, 30 MW electrical generation
+- **Propulsion**: Single shaft with 7-blade skewed propeller
+- **Speed**: 25+ knots submerged, 20 knots surface
+- **Endurance**: 25+ years between reactor refueling cycles
+- **Shielding**: Lead and steel radiation containment barriers
+
+### 🏗️ Hull Structure and Design
+- **Material**: HY-80 high-yield steel with 80,000 psi tensile strength
+- **Length**: 115 meters (377 feet) overall length
+- **Beam**: 10 meters (33 feet) maximum diameter
+- **Displacement**: 7,800 tons submerged, 6,900 tons surface
+- **Test Depth**: 240 meters (800 feet) operational depth
+- **Crush Depth**: 360+ meters (1,200+ feet) theoretical limit
+
+### 🌊 Ballast and Trim Systems
+- **Main Ballast Tanks**: 6 external tanks for surface/submerged operations
+- **Trim Tanks**: Forward and aft tanks for precise buoyancy control
+- **Emergency Blow**: High-pressure air system for emergency surfacing
+- **Capacity**: 900 tons total ballast water displacement
+- **Blow Rate**: Complete emergency surface in under 60 seconds
+- **Depth Control**: Variable ballast for neutral buoyancy maintenance
+
+### 🎯 Combat and Sensor Systems
+- **Sonar Array**: Spherical bow array with 1,000+ hydrophones
+- **Towed Array**: 800-meter passive sonar for long-range detection
+- **Periscopes**: Photonic masts with thermal and optical imaging
+- **Weapons**: 12 vertical launch tubes for Tomahawk cruise missiles
+- **Torpedoes**: 4 x 21-inch torpedo tubes with 26 weapon capacity
+- **Countermeasures**: Acoustic decoys and noise reduction systems
+
+### 🔧 Life Support and Habitability
+- **Crew Capacity**: 134 personnel (15 officers, 119 enlisted)
+- **Air Purification**: CO2 scrubbers and oxygen generation systems
+- **Water Systems**: Reverse osmosis desalination and recycling
+- **Food Storage**: 90-day patrol provisions and galley facilities
+- **Quarters**: Individual bunks with privacy curtains and storage
+- **Recreation**: Crew mess, library, and exercise equipment
+
+### 📡 Navigation and Communication
+- **Inertial Navigation**: Ring laser gyroscope system with GPS backup
+- **Communications**: VLF/ELF antennas for submerged operations
+- **Satellite**: Multi-band satellite communication when surfaced
+- **Emergency**: Emergency Position Indicating Radio Beacon (EPIRB)
+- **Stealth**: Anechoic coating for acoustic signature reduction
+- **Automation**: Integrated ship control and monitoring systems
